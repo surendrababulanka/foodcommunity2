@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6347;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#profile {
+    padding: 2em;
+    background-color: #f9f9f9;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.profile-header .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+.profile-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.bio, .recent-activity, .favorite-recipes, .connect {
+    margin-bottom: 2em;
+}
+
+h2 {
+    color: black;
+}
+
+.bio p {
+    font-size: 1.1em;
+}
+
+.recent-activity ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-activity ul li {
+    margin: 0.5em 0;
+}
+
+.favorite-recipes .recipe-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.favorite-recipes .recipe {
+    width: 30%;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.favorite-recipes .recipe img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.favorite-recipes .recipe h3 {
+    margin: 0.5em 0;
+}
+
+.connect .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.connect .social-icons li {
+    margin: 0 1em;
+    list-style: none;
+    height: 30px;
+    width: 30px;
+   background-color: #fff;
+}
+.social-icons li a{
+    color: black;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 40%;
+    padding: 10px;
+}
+.connect .social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
